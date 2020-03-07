@@ -6,6 +6,7 @@ authors = ["KGB33 <github@bassingthwaite.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+mypy = "^0.761"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.3.5"
