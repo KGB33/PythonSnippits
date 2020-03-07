@@ -1,5 +1,8 @@
+from typing import Dict
+
+
 class JsonParser:
-    def __init__(self, _json):
+    def __init__(self, _json: Dict):
         self._json = _json
 
         for key, val in self._json.items():
